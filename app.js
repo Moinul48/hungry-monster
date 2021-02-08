@@ -1,5 +1,4 @@
-const searchBtn = document.getElementById('searchBtn');
-searchBtn.addEventListener('click', function () {
+function searchFood(){
     const keyword = document.getElementById('keyword').value;
     const data_container = document.getElementById('foods');
     data_container.innerHTML = '';
@@ -10,7 +9,7 @@ searchBtn.addEventListener('click', function () {
         getFood(keyword);
         warning.style.display = 'none';
     }
-});
+};
 const displayDetails = name => {
     const url = `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${name}`;
     fetch(url)
