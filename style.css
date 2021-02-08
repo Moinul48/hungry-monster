@@ -6,8 +6,7 @@
 
 a {
     text-decoration: none;
-    transition: 0.2s;
-    color: #e74c3c;
+    color: rgba(240, 86, 20, 0.8);
 }
 
 .inner-form {
@@ -32,11 +31,11 @@ a {
     width: 100%;
     padding: 10px 0;
     font-size: 16px;
-    color: #000;
+    color: #000000;
 }
 
 .inner-form .input-field input.placeholder {
-    color: #222;
+    color: #222222;
     font-size: 16px;
 }
 
@@ -58,42 +57,33 @@ a {
 }
 
 .inner-form .input-field.second-wrap {
-    min-width: 130px;
+    min-width: 120px;
 }
-
 
 .inner-form .input-field.second-wrap .btn-search {
     height: 100%;
     width: 100%;
     white-space: nowrap;
     font-size: 16px;
-    color: #fff;
+    color: #ffffff;
     border: 0;
     cursor: pointer;
     position: relative;
-    background: #e74c3c;
-    transition: all 0.2s ease-out, color 0.2s ease-out;
-    font-weight: 300;
+    background: #8d3126;
 }
 
 .inner-form .input-field.second-wrap .btn-search:hover {
-    background: #e74c3c;
-}
-
-.inner-form .input-field.second-wrap .btn-search:focus {
-    outline: 0;
-    box-shadow: none;
+    background: #8d3126;
 }
 
 ul li {
-    padding: 5px 0;
+    padding: 5px;
 }
 
 .icon-check {
-    color: #e74c3c;
-    margin-right: 5px;
+    color: #cc0b0b;
+    margin-right: 10px;
 }
-
 
 #warning {
     display: none;
